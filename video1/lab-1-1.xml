@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?format drive="c" ?>
+<!-- comment -->
+
+<timeTable xmlns="http://gostroy.org.ua/xml-course/lab1">
+	<lesson no="1">
+		<date>2008-06-12</date>
+		<time>10:00</time>
+		<desc>
+		<![CDATA[
+			la la la la la a > b < &
+		]]>
+		</desc>
+<!--
+		<data xmlns="http://www.w3.org/1999/xhtml">
+			<b>HI</b>
+		</data>
+-->
+	</lesson>
+</timeTable>
