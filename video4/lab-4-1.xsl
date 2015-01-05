@@ -16,6 +16,8 @@
 
     <xsl:template match="book[price &gt; 150]">
         <div style="color:red">
+            <xsl:value-of select="name()" />
+            <xsl:text>: </xsl:text>
             <xsl:value-of select="title" />
             <xsl:text disable-output-escaping="yes"><![CDATA[&nbsp;]]></xsl:text>
             <xsl:value-of select="price" />
@@ -27,6 +29,8 @@
     <xsl:template match="book">
         <div>
             <a href="{@url}">
+                <xsl:value-of select="name()" />
+                <xsl:text>: </xsl:text>
                 <xsl:value-of select="title" />
             </a>
         </div>
