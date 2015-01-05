@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="lab-4-4.xsl" ?>
+
+<pricelist>
+    <book color="красный">
+        <title>XML и IE5</title>
+        <author>Алекс Гомер</author>
+        <price>200</price>
+    </book>
+    <book color="синий">
+        <title>Dinamic HTML</title>
+        <author>Алекс Хоумер</author>
+        <price>120</price>
+    </book>
+    <book color="желтый">
+        <title>Технология XSLT</title>
+        <author>Алексей Валиков</author>
+        <price>150</price>
+    </book>
+    <book color="мой мега цвет">
+        <title>Дешевка</title>
+        <author>Вася Твердый</author>
+        <price>20</price>
+    </book>
+</pricelist>
