@@ -2,6 +2,15 @@
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+    <xsl:output
+            method="xml"
+            encoding="UTF-8"
+            doctype-public="-//W3C//DTD HTML 4.01//EN"
+            doctype-system="http://www.x3.org/TR/html4/strict.dtd"
+            indent="yes"
+            cdata-section-elements="ul"
+            />
+
     <xsl:key name="mykey" match="/pricelist/book" use="price" />
     <xsl:key name="keyTitleAuthor" match="/pricelist/book" use="concat(title,':', author)" />
 
